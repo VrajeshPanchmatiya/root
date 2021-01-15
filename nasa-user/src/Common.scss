@@ -1,0 +1,28 @@
+$back: #dff9fb;
+.div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #130f40;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%-20%;
+  width: 100%-60%;
+  flex-direction: column;
+  background-color: indianred;
+  border-style: double;
+  border-color: $back;
+  &:hover {
+    background-color: white;
+  }
+  h1 {
+    color: $back;
+    &:hover {
+      color: #130f40;
+    }
+  }
+}
